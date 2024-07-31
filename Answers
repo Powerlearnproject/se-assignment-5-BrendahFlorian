@@ -1,1 +1,144 @@
-task one
+The installation of vs code on windows 11 
+
+ 1. Installation of VS Code:
+ Steps to download and install Visual Studio Code on Windows 11:   
+      
+      1.Download VS Code:
+       - Visit the [Visual Studio Code website](https://code.visualstudio.com/).
+       - Click on the "Download for Windows" button to download the installer.
+
+      2.Run the Installer:
+       - Once the download is complete, open the downloaded file (`VSCodeUserSetup-{version}.exe`).
+       - Follow the installation wizard. Accept the license agreement and select the destination folder.
+
+      3.Select Additional Task:
+       - Choose additional tasks like creating a desktop icon, adding "Open with Code" actions to the Windows Explorer context menu, and registering VS Code as the default editor for supported file types.
+       - Click "Next" and then "Install".
+
+       4.Launch VS Code:
+      - Once the installation is complete, click "Finish" to launch Visual Studio Code.
+
+    Prerequisites:
+   - Ensure that your system meets the minimum requirements for running VS Code.
+   - Optionally, install Git for version control capabilities.
+
+
+
+ 2. First-time Setup:
+ Initial configurations and settings for an optimal coding environment:
+   
+    1.Theme and Font:
+     - Go to `File > Preferences > Color Theme` to select a preferred theme.
+     - Adjust font settings in `File > Preferences > Settings` and search for "font".
+
+     2.Extensions:
+     - Install essential extensions like:
+     - Prettier for code formatting.
+     - ESLint for JavaScript linting.
+     - Live Server for a development local server.
+     - Python if you are working with Python.
+     - IntelliCode for AI-assisted code completion.
+
+     3.Editor Settings:
+     - Set up auto-save and other editor preferences in `File > Preferences > Settings`.
+     - Configure settings like tab size, word wrap, and format on save.
+
+
+ 3. User Interface Overview:
+  
+   Main components of the VS Code user interface:
+  - Activity Bar: Located on the far left side, it provides access to different views like Explorer, Search, Source Control, Run and Debug, and Extensions.
+
+  - Side Bar:  Displays the contents of the selected view from the Activity Bar, such as the file explorer or version control.
+
+  - Editor Group:  The main area where you open and edit your files. You can split it into multiple editor windows for side-by-side editing.
+
+  - Status Bar:  Located at the bottom, it shows information about the currently opened file, such as language mode, line and column number, and any active background tasks.
+
+
+ 4. Command Palette:
+
+  Description and access:
+  - The Command Palette is a quick way to access all commands in VS Code.
+  - Access it by pressing `Ctrl+Shift+P` or `F1`.
+
+  Common tasks using the Command Palette:
+  - Opening a file: `Ctrl+P`.
+  - Changing language mode: `Change Language Mode`.
+  - Running a task: `Run Task`.
+
+ 5. Extensions in VS Code:
+
+   Role and management of extensions: Extensions enhance the functionality of VS Code by adding new features, languages, debuggers, and tools.
+
+   Finding, installing, and managing extensions:
+   - Access the Extensions view via the Activity Bar.
+   - Search for desired extensions and click "Install".
+   - Manage installed extensions from the same view by enabling, disabling, or uninstalling them.
+
+   Essential extensions for web development:
+   - HTML Snippets
+   - CSS IntelliSense
+   - JavaScript (ES6) code snippets
+   - Debugger for Chrome
+   - Path Intellisense
+
+
+ 6. Integrated Terminal:
+
+   Opening and using the integrated terminal:
+   - Open the terminal with `Ctrl+`` (backtick) or `View > Terminal`.
+   - Use it just like any other terminal, running commands like `npm start`, `git status`, etc.
+
+   Advantages:
+   - No need to switch between different windows.
+   - Direct integration with your project’s root directory.
+
+
+ 7. File and Folder Management:
+
+  Creating, opening, and managing files and folders:
+   - Use the Explorer in the Side Bar to create, open, and manage files and folders.
+   - Right-click to create new files/folders or open an existing file.
+   - Use `Ctrl+P` to quickly navigate between files.
+
+
+ 8. Settings and Preferences:
+
+   Finding and customizing settings:
+  - Go to `File > Preferences > Settings` or use `Ctrl+,`.
+  - Use the search bar to find settings like theme, font size, and keybindings.
+
+   Examples:
+  - Change theme: `File > Preferences > Color Theme`.
+  - Change font size: Search for "Font Size" in the settings.
+  - Customize keybindings: `File > Preferences > Keyboard Shortcuts`.
+
+
+ 9. Debugging in VS Code:
+
+   Setting up and starting debugging:
+  - Open your code file.
+  - Set breakpoints by clicking in the gutter next to the line numbers.
+  - Open the Debug view from the Activity Bar.
+  - Click the play button or press `F5` to start debugging.
+
+   Key debugging features:
+  - Breakpoints
+  - Watch variables
+  - Call stack
+  - Variable inspection
+
+
+ 10. Using Source Control:
+    Integrating Git with VS Code:
+  - Open the Source Control view from the Activity Bar.
+  - Initialize a repository by clicking "Initialize Repository".
+  - Stage changes, make commits, and push changes to GitHub.
+
+   Process:
+  - Initialize a repo: `git init`.
+  - Stage changes: Select files in the Source Control view and click the "+" icon.
+  - Commit changes: Enter a commit message and click the checkmark icon.
+  - Push changes: Use the Command Palette (`Ctrl+Shift+P`) and type `Git: Push`.
+
